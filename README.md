@@ -76,11 +76,8 @@ npm install
 ## 🎯 Future Scope
 
 AI-based social media captions
-
 Auto-posting on Instagram & Facebook
-
 Analytics dashboard for artisans
-
 AI product photo enhancement
 
 ## 🤝 Contributing
@@ -92,15 +89,14 @@ If you have ideas to improve CraftConnect, feel free to open an issue.
 
 👤 Name: Munazza Ghazali
 🔗 LinkedIn: https://linkedin.com/in/your-profile
-
 🐙 GitHub: https://github.com/munazzaghazali7-hash
-
 📧 Email: your-email-here
-
 ⭐ Support the Project
 
 If this repo helped you — star the repo ⭐ and make my day!
 More features coming soon 🚀✨
 
 # Run locally
+```bash
 npm run dev
+```
