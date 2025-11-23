@@ -1,0 +1,22 @@
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+export default {
+  base: "./"
+};
+
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  server: {
+    port: 5173, // optional, default 5173
+    open: true, // automatically opens browser
+    strictPort: true, // fail if port is taken
+  },
+  resolve: {
+    alias: {
+      "@": "/src", // now you can import like "@/components/..."
+    },
+  },
+});
