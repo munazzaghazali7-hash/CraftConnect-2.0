@@ -6,6 +6,7 @@
     "dev": "vite",
     "prebuild": "npm install",
     "build": "npx vite build",
+    "start": "npm run build && vite preview",
     "preview": "vite preview"
   },
   "dependencies": {

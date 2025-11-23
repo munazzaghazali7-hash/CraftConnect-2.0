@@ -6,9 +6,14 @@ export default defineConfig({
   base: "./",
   plugins: [react()],
   server: {
-    port: 5173, // optional, default 5173
-    open: true, // automatically opens browser
-    strictPort: true, // fail if port is taken
+    host: '0.0.0.0', // Bind to all network interfaces for Render
+    port: process.env.PORT ? parseInt(process.env.PORT) : 5173, // Use Render's PORT or default
+    strictPort: false, // Allow port fallback
+  },
+  preview: {
+    host: '0.0.0.0', // Bind preview server to all interfaces
+    port: process.env.PORT ? parseInt(process.env.PORT) : 4173,
+    strictPort: false,
   },
   resolve: {
     alias: {
