@@ -88,9 +88,13 @@ If you have ideas to improve CraftConnect, feel free to open an issue.
 ## 📞 Contact
 
 👤 Name: Munazza Ghazali
+
 🔗 LinkedIn:(http://linkedin.com/in/almunazza-ghazali-630798377/)
+
 🐙 GitHub: https://github.com/munazzaghazali7-hash
+
 📧 Email: munazzaghazali7@gmail.com
+
 ⭐ Support the Project
 
 If this repo helped you — star the repo ⭐ and make my day!
