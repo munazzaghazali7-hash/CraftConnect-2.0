@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "npm install",
     "build": "npx vite build",
     "preview": "vite preview"
   },
